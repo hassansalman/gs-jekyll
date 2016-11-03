@@ -9,9 +9,9 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Timothy Island
   pic: 1
-  position: Lead Designer
+  position: Co-Founder/CEO
   social:
     - title: twitter
       url: #
@@ -20,9 +20,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: James Edwards
   pic: 2
-  position: Lead Marketer
+  position: Co-Founder/CEO
   social:
     - title: twitter
       url: #
@@ -31,7 +31,7 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Hassan Salman
   pic: 3
   position: Lead Developer
   social:
@@ -57,8 +57,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Pacific Coast Highway
+  - line: Redondo Beach, CA 90278
 
 # Build settings
 markdown: kramdown
