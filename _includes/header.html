@@ -39,17 +39,52 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+    <div id="banner" class="bg-blur">
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="banner-content">
+            <div class="container">
+                <div class="row">
+                    <!-- Start Header Text -->
+                    <div class="col-md-7 col-sm-7">
+                        <p style="color:white;" class="welcome-text"><strong>Welcome</strong> to GreenSTOP &trade;</p>
+                        <h5>GreenSTOP LLC is a “hands off” (ancillary) technology company creating software and hardware applications for the legal cannabis market.
+                        Our technology will help expedite, brand, and professionalize the cannabis buying experience in current legal dispensaries.</h5>
+                        <div class="banner-form">
+                            <div class="form-title">
+                                <h2 style="text-align:left;padding-left: 15px;">Pre-Register for our mobile app for a chance to win amazing prizes!
+                                <a href="#prizesModal" role="button" data-toggle="modal"> (Learn more)</a></h2>
+                            </div>
+                            <div class="form-body">
+                                <h4 style="color:#f8f8f8;">World's first ever cannabis smart dispensary</h4>
+                                <ul class="banner-list">
+                                    <li><i class="fa fa-check"></i>Automated Kiosk (Smart Dispensary)</li>
+                                    <li><i class="fa fa-check"></i>Delivery (Multiple Platforms)</li>
+                                    <li><i class="fa fa-check"></i>Mobile App (Coming Soon)</li>
+                                </ul>
+                                <form id="banner-form" action="https://getsimpleform.com/messages?form_api_token=b047206c6c3654bdd0c8616707a03f6d" class="form" method="post">
+                                    <div class="form-group">
+                                        <input name="banner-name" id="banner-name" type="text" class="form-control" required placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="banner-email" id="banner-email" type="text" class="form-control" required placeholder="Your E-mail">
+                                    </div>
+                                    <button type="submit" class="btn btn-default btn-submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Header Text -->
+                    <!-- Start Banner Optin Form-->
+                    <div class="col-lg-4 col-md-4 col-md-offset-1 col-sm-5">
+                        <img src="img/gs-sample_iphone.png" class="img-responsive" width="300px">
+                    </div>
+                    <!-- End Banner Optin Form -->
+                </div>
             </div>
         </div>
     </header>
+     </div>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
