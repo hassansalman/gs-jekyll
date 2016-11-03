@@ -127,6 +127,7 @@ Color Customizations
 
 .bg-blue-pattern {background-color: #8ac604; background:url(https://www.fabrics-store.com/inventory/items/Bright-Chartreuse-L.jpg);}
 .bg-team {background:url(../img/headshot-bg.jpg);}
+.bg-join {background-color: #8ac604;background: url(../img/joinus-bg.png);background-position: left center;background-repeat: no-repeat;background-size: cover;height: 100%;}
 
 .blue {color: #8ac604;}
 
@@ -151,8 +152,14 @@ Headline
 .headline h1 {color: #31373a; padding-bottom: 15px; border-bottom: 1px solid #DDD; display: inline-block; font-size: 44px; font-weight: 100; letter-spacing: -2px;}
 .headline h2 {font-size: 36px;}
 .headline p {margin-bottom: 40px; font-weight: 100; font-size: 16px; color: #FFFFFF;}
+
+/* ==========================================================================
+Join Our Team
+========================================================================== */
+
 .join {padding-bottom: 15px;}
-.join p {margin-bottom: 40px; font-weight: 100; font-size: 46px; color: #FFFFFF;}
+.join p {margin-bottom: 40px; font-weight: 100; font-size: 46px; color: #444;}
+.join h5 {font-size: 22px; color: #777;}
 
 /* ==========================================================================
  Navigation
@@ -354,108 +361,26 @@ Social Links
 
 
 
-.team{
-    padding:75px 0;
-}
-h6.description{
-	font-weight: bold;
-	letter-spacing: 2px;
-	color: #999;
-	border-bottom: 1px solid rgba(0, 0, 0,0.1);
-	padding-bottom: 5px;
-}
-.profile{
-	margin-top: 25px;
-}
-.profile h1{
-	font-weight: normal;
-	font-size: 20px;
-	margin:10px 0 0 0;
-}
-.profile h2{
-	font-size: 14px;
-	font-weight: lighter;
-	margin-top: 5px;
-}
-.profile .img-box{
-	opacity: 1;
-	display: block;
-	position: relative;
-}
-.profile .img-box:after{
-	content:"";
-	opacity: 0;
-	background-color: rgba(0, 0, 0, 0.75);
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 0;
-	bottom: 0;
-}
-.img-box ul{
-	position: absolute;
-	z-index: 2;
-	bottom: 50px;
-	text-align: center;
-	width: 100%;
-	padding-left: 0px;
-	height: 0px;
-	margin:0px;
-	opacity: 0;
-}
-.profile .img-box:after, .img-box ul, .img-box ul li{
-	-webkit-transition: all 0.5s ease-in-out 0s;
-    -moz-transition: all 0.5s ease-in-out 0s;
-    transition: all 0.5s ease-in-out 0s;
-}
-.img-box ul i{
-	font-size: 20px;
-	letter-spacing: 10px;
-}
-.img-box ul li{
-	width: 30px;
-    height: 30px;
-    text-align: center;
-    border: 1px solid #88C425;
-    margin: 2px;
-    padding: 5px;
-	display: inline-block;
-}
-.img-box a{
-	color:#fff;
-}
-.img-box:hover:after{
-	opacity: 1;
-}
-.img-box:hover ul{
-	opacity: 1;
-}
-.img-box ul a{
-	-webkit-transition: all 0.3s ease-in-out 0s;
-	-moz-transition: all 0.3s ease-in-out 0s;
-	transition: all 0.3s ease-in-out 0s;
-}
-.img-box a:hover li{
-	border-color: #fff;
-	color: #88C425;
-}
-a{
-    color:#88C425;
-}
-a:hover{
-    text-decoration:none;
-    color:#519548;
-}
-i.red{
-    color:#BC0213;
-}
-
-.truncate {
-  width: 250px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+.team{ padding:75px 0;}
+h6.description{	font-weight: bold; letter-spacing: 2px;color: #999;border-bottom: 1px solid rgba(0, 0, 0,0.1);	padding-bottom: 5px;}
+.profile{margin-top: 25px;}
+.profile h1{font-weight: normal;font-size: 20px;margin:10px 0 0 0;}
+.profile h2{font-size: 14px;font-weight: lighter;margin-top: 5px;}
+.profile .img-box{	opacity: 1;	display: block;	position: relative;}
+.profile .img-box:after{content:"";	opacity: 0;	background-color: rgba(0, 0, 0, 0.75);	position: absolute;	right: 0;	left: 0; top: 0;bottom: 0;}
+.img-box ul{position: absolute;z-index: 2;bottom: 50px;text-align: center;width: 100%;padding-left: 0px;height: 0px;margin:0px;opacity: 0;}
+.profile .img-box:after, .img-box ul, .img-box ul li{-webkit-transition: all 0.5s ease-in-out 0s;   -moz-transition: all 0.5s ease-in-out 0s;   transition: all 0.5s ease-in-out 0s;}
+.img-box ul i{font-size: 20px;letter-spacing: 10px;}
+.img-box ul li{	width: 30px;    height: 30px; text-align: center;    border: 1px solid #88C425;    margin: 2px;    padding: 5px;	display: inline-block;}
+.img-box a{	color:#fff;}
+.img-box:hover:after{	opacity: 1;}
+.img-box:hover ul{	opacity: 1;}
+.img-box ul a{-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;}
+.img-box a:hover li{border-color: #fff;color: #88C425;}
+a{ color:#88C425;}
+a:hover{ text-decoration:none; color:#519548;}
+i.red{ color:#BC0213;}
+.truncate { width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
 
 
 /* ==========================================================================
