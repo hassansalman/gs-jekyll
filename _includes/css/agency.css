@@ -1004,3 +1004,153 @@ Banner
 
 .jobs-list li {color:#444; font-weight: 600; margin-top: 20px; list-style-type: circle;}
 
+
+/* ==========================================================================
+Footer
+ ========================================================================== */
+.footer-top {background-color: #2b2b2b; padding: 70px 0;}
+.footer-sub {background-color: #242424; padding: 30px 0;}
+
+.footer h3 {color: #FFF; font-weight: bold; font-size: 19px; margin-bottom:15px;}
+.footer p,
+.footer a {color: #ADADAD; margin-bottom: 10px;}
+.footer li {padding: 3px 0; font-size: 14px;}
+.footer i {color: #f8f8f8;}
+
+.copyright {float: right;}
+.copyright i {color: #FF3D7F; margin:0 5px;}
+
+.contact-list li {color: #ADADAD; margin-bottom: 5px;}
+.contact-list i {margin-right: 15px;}
+
+.quick-links li { padding-left:15px; position:relative; }
+.quick-links li:before {display:inline-block; text-align:center; font-family: FontAwesome; content:"\f105"; position:absolute; left:0px; top:4px; transition:all 0.3s ease-in; transition:all 0.3s ease-in;  transition:all 0.3s ease-in; color: #f8f8f8;}
+
+/* ==========================================================================
+Carousel Settings
+ ========================================================================== */
+.carousel-mod .carousel-indicators {position: static; display: block; width: auto; margin: 15px auto;}
+.carousel-mod .carousel-indicators li {background-color: #A3A3A3; border: none; margin:0;}
+.carousel-mod .carousel-indicators .active {background-color: #31373a; width: 10px; height: 10px;}
+.carousel-mod .carousel-control.left, .carousel-mod .carousel-control.right {background: none; background-color: transparent; filter:none;}
+.carousel-mod .carousel-control {top: 45%;}
+
+/* ==========================================================================
+Social Links
+ ========================================================================== */
+.social {}
+.social li {padding:0; display: inline-block; width: 35px; height: 35px; border-radius: 3px; text-align: center; line-height: 35px; webkit-transition: background-color 400ms ease-out 0.2s; -moz-transition: background-color 400ms ease-out 0.2s; -o-transition: background-color 400ms ease-out 0.2s; transition: background-color 400ms ease-out 0.2s; margin-bottom: 5px;}
+.social li a { color: #fff; }
+.social li.facebook { background: #204385; }
+.social li.twitter { background: #2aa9e0; }
+.social li.google-plus { background: #d3492c; }
+.social li.linkedin { background: #0073b2; }
+.social li.skype { background: #00b0f6; }
+.social li.youtube { background: #e22d24; }
+.social li:hover {background:#31373a; cursor: pointer; }
+
+
+
+
+.team{
+    padding:75px 0;
+}
+h6.description{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #999;
+    border-bottom: 1px solid rgba(0, 0, 0,0.1);
+    padding-bottom: 5px;
+}
+.profile{
+    margin-top: 25px;
+}
+.profile h1{
+    font-weight: normal;
+    font-size: 20px;
+    margin:10px 0 0 0;
+}
+.profile h2{
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+.profile .img-box{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile .img-box:after{
+    content:"";
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.img-box ul{
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    padding-left: 0px;
+    height: 0px;
+    margin:0px;
+    opacity: 0;
+}
+.profile .img-box:after, .img-box ul, .img-box ul li{
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul i{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.img-box ul li{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #88C425;
+    margin: 2px;
+    padding: 5px;
+    display: inline-block;
+}
+.img-box a{
+    color:#fff;
+}
+.img-box:hover:after{
+    opacity: 1;
+}
+.img-box:hover ul{
+    opacity: 1;
+}
+.img-box ul a{
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.img-box a:hover li{
+    border-color: #fff;
+    color: #88C425;
+}
+a{
+    color:#88C425;
+}
+a:hover{
+    text-decoration:none;
+    color:#519548;
+}
+i.red{
+    color:#BC0213;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

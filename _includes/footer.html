@@ -1,25 +1,64 @@
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+            <section class="footer footer-top">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Intro  -->
+                        <div class="col-md-4">
+                            <h3>Mission Statement</h3>
+                            <p>GreenSTOP is a two prong solution to major problems in the growing legal cannabis industry.
+                                The GreenSTOP umbrella will bring branding and technology to an industry that is growing fast
+                            but is in desperate need of some corner stone companies.</p>
+                        </div>
+                        <!-- End Footer Intro  -->
+                        <!-- Contact Details  -->
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <h3>Reach Us</h3>
+                                <ul class="contact-list">
+                                    <li><i class="icon-directions"></i>Pacific Coast Highway, Redondo Beach, CA</li>
+                                    <li><i class="icon-call-in"></i> + 424 247 6651</li>
+                                    <li><i class="icon-envelope-open"></i><a href="mailto:contact@greenstop.us">timothy@greenstop.us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Contact Details  -->
+                        <!-- Quick Links -->
+                        <div class="col-md-2">
+                            <h3>Quick Links</h3>
+                            <ul class="quick-links">
+                                <li><a href="/media.html">Media Coverage</a></li>
+                                <li><a href="#">Disclaimer</a></li>
+                                <li><a href="invest.html">Investor Relations</a></li>
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="#gs_terms" role="button" data-toggle="modal">Terms &amp; Conditions</a></li>
+                                <li><a href="#gs_privacy" role="button" data-toggle="modal">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Quick links -->
+                        <!-- Social Links -->
+                        <div class="col-sm-3">
+                            <h3>Stay in Touch!</h3>
+                            <p>Follow us on our social networks!</p>
+                            <ul class="social">
+                                <li class="facebook"> <a href="https://www.facebook.com/venturecann"> <i class="fa fa-facebook"></i> </a> </li>
+                                <li class="twitter"> <a href="#"> <i class="fa fa-twitter"></i> </a> </li>
+                                <li class="linkedin"> <a href="https://www.instagram.com/VentureCannabis"> <i class="fa fa-instagram"></i> </a> </li>
+                                <li class="youtube"> <a href="https://www.youtube.com/channel/UCR3QA6363O7SU0qekowmSmA"> <i class="fa fa-youtube-play"></i> </a> </li>
+                            </ul>
+                        </div>
+                        <!--End Social Links  -->
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>
-                        {% endfor %}
-                    </ul>
+            </section>
+            <!-- End Footer Top -->
+            <!-- Footer Bottom -->
+            <footer class="footer footer-sub">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                            <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+            </footer>

@@ -10,7 +10,7 @@ description: "Write an awesome description for your new site here. You can edit 
 # Team names, titles and social links
 people:
 - name: Timothy Island
-  pic: 1
+  pic: tim
   position: Co-Founder/CEO
   social:
     - title: twitter
@@ -21,7 +21,7 @@ people:
       url: #
 
 - name: James Edwards
-  pic: 2
+  pic: james
   position: Co-Founder/CEO
   social:
     - title: twitter
@@ -32,7 +32,7 @@ people:
       url: #
 
 - name: Hassan Salman
-  pic: 3
+  pic: me
   position: Lead Developer
   social:
     - title: twitter
