@@ -209,7 +209,7 @@ Technology
 /* ==========================================================================
 Banner
 ========================================================================== */
-#banner {padding-top: 90px; padding-bottom: 70px; background: #1a1a1a; background-image: url(http://www.topnotchmovinganddelivery.com/wp-content/uploads/2015/12/bg.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:100%; position: relative; background-attachment: fixed;}
+#banner {padding-top: 90px; padding-bottom: 70px; background: #1a1a1a; background-image: url(../img/city-BG.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height:100%; position: relative; background-attachment: fixed;}
 #investor-sec{padding-top: 90px; padding-bottom: 70px; background: #1a1a1a; background-image: url(http://www.employersadvisor.com/files/2015/02/Marijuana-plant.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; width: 100%; height:100%; position: relative; background-repeat: none; background-position: center;}
 .form-bg{padding-top: 90px; padding-bottom: 70px; background: #1a1a1a; background-image: url(http://www.employersadvisor.com/files/2015/02/Marijuana-plant.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; width: 100%; height:100%; position: relative; background-repeat: none; background-position: center;}
 
@@ -232,11 +232,12 @@ Banner
 /* ==========================================================================
 Venture Cannabis
 ========================================================================== */
-.vc-box {}
+.vc-box {background-color:rgba(239, 239, 239, 0.55); padding: 25px; color: #444;}
 .vc-box span {font-size: 12px; font-weight: bold;}
 .vc-box p {padding: 0; }
 .vc-box .desc {font-size: 16px;}
 .vc-box .title {font-weight: bold;}
+.vc-box strong {color:#1a1a1a;}
 
 
 /* ==========================================================================

@@ -1,10 +1,12 @@
 url: http://greenstop.us
 baseurl: ""
+include: ["_pages"]
 
 # Site settings
 title: GreenSTOP
 email: timothy@greenstop.us
 description: "GreenSTOP LLC is a “hands off” (ancillary) technology company creating software and hardware applications for the legal cannabis market. Our technology will help expedite, brand, and professionalize the cannabis buying experience in current legal dispensaries."
+permalink: /:title/
 
 # Team names, titles and social links
 people:
