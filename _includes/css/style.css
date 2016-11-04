@@ -228,11 +228,16 @@ Banner
 .feats-list li i { margin-right: 10px; color:#8ac604; }
 
 .jobs-list li {color:#444; font-weight: 600; margin-top: 20px; list-style-type: circle;}
+
 /* ==========================================================================
-Clients Logo
+Venture Cannabis
 ========================================================================== */
-.clients-logo li {padding: 0 20px;}
-.clients-logo li img {opacity: 0.4; filter: alpha(opacity=40); /* For IE8 and earlier */}
+.vc-box {}
+.vc-box span {font-size: 12px; font-weight: bold;}
+.vc-box p {padding: 0; }
+.vc-box .desc {font-size: 16px;}
+.vc-box .title {font-weight: bold;}
+
 
 /* ==========================================================================
 Process Steps
